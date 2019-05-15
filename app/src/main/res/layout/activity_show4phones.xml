@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Telefon" />
+
+                <TextView
+                    android:id="@+id/brand41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/brand42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/brand43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/brand44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Typ" />
+
+                <TextView
+                    android:id="@+id/type41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/type42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/type43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/type44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="System operacyjny" />
+
+                <TextView
+                    android:id="@+id/os41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/os42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/os43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/os44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Przekątna wyświetlacza" />
+
+                <TextView
+                    android:id="@+id/dispsize41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/dispsize42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/dispsize43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/dispsize44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Rozdzielczość wyświetlacza" />
+
+                <TextView
+                    android:id="@+id/dispres41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/dispres42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/dispres43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/dispres44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Procesor" />
+
+                <TextView
+                    android:id="@+id/proc41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/proc42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/proc43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/proc44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="RAM" />
+
+                <TextView
+                    android:id="@+id/ram41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/ram42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/ram43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/ram44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Pamięć wbudowana" />
+
+                <TextView
+                    android:id="@+id/mem41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/mem42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/mem43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/mem44"
+                    android:layout_weight="1" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="LTE" />
+
+                <ImageView
+                    android:id="@+id/lte41"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/lte42"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/lte43"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/lte44"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Tylni aparat" />
+
+                <LinearLayout android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/cam41"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitStart" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/cam42"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/cam43"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/cam44"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Rozdzielczość tylnego aparatu" />
+
+                <TextView
+                    android:id="@+id/camRes41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/camRes42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/camRes43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/camRes44"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Lampa błyskowa" />
+
+                <ImageView
+                    android:id="@+id/led41"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/led42"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/led43"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/led44"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Przedni aparat" />
+
+                <LinearLayout android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/cam241"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitStart" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/cam242"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/cam243"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/cam244"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Rozdzielczość przedniego aparatu" />
+
+                <TextView
+                    android:id="@+id/cam2res41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/cam2res42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/cam2res43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/cam2res44"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Gniazdo mini-jack" />
+
+                <LinearLayout android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/jack41"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitStart" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/jack42"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/jack43"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+                <ImageView
+                    android:id="@+id/jack44"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart" />
+
+
+            </TableRow>
+
+            <TableRow android:background="@color/Row2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Cena" />
+
+                <TextView
+                    android:id="@+id/price41"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/price42"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/price43"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/price44"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </HorizontalScrollView>
+</LinearLayout>

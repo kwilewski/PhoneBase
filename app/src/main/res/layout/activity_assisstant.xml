@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Wydajność" />
+
+    <SeekBar
+        android:id="@+id/perfSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:progressBackgroundTint="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:text="Aparat" />
+
+    <SeekBar
+        android:id="@+id/camSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="103dp"
+        android:progressBackgroundTint="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:text="Przekątna wyświetlacza (w calach)" />
+
+    <EditText
+        android:id="@+id/dispMin"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="169dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:hint="min"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/dispMax"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/dispMin"
+        android:layout_marginEnd="48dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:hint="max"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="176dp"
+        android:text="Cena (w zł.)" />
+
+    <EditText
+        android:id="@+id/priceMin"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/dispMin"
+        android:layout_marginBottom="106dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:hint="min"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/priceMax"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dispMax"
+        android:layout_alignTop="@+id/priceMin"
+        android:digits="0123456789."
+        android:ems="10"
+        android:hint="max"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/assProgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="@color/Buttons"
+        android:text="Szukaj" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222dp"
+        android:text="Pamięć wbudowana (w GB)" />
+
+    <EditText
+        android:id="@+id/memMin"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/dispMin"
+        android:layout_marginBottom="210dp"
+        android:ems="10"
+        android:hint="min"
+        android:inputType="numberDecimal" />
+
+
+</RelativeLayout>
